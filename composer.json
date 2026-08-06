@@ -120,7 +120,7 @@
       "package": {
         "name": "koodimonni-plugin-language/my-calendar-ja",
         "type": "wordpress-language",
-        "version": "3.6.15",
+        "version": "3.7.17",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/my-calendar/{%version}/ja.zip"
@@ -144,7 +144,7 @@
       "package": {
         "name": "koodimonni-plugin-language/tablepress-ja",
         "type": "wordpress-language",
-        "version": "3.2.5",
+        "version": "3.3.3",
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/tablepress/{%version}/ja.zip"
@@ -212,13 +212,13 @@
     "wpackagist-plugin/duplicate-post": "*",
     "wpackagist-plugin/flexible-table-block": "*",
     "wpackagist-plugin/instagram-feed": "*",
-    "wpackagist-plugin/my-calendar": "3.6.15",
+    "wpackagist-plugin/my-calendar": "3.7.17",
     "wpackagist-plugin/post-types-order": "*",
     "wpackagist-plugin/reusable-blocks-extended": "*",
     "wpackagist-plugin/seo-simple-pack": "*",
     "wpackagist-plugin/show-current-template": "*",
     "wpackagist-plugin/snow-monkey-forms": "*",
-    "wpackagist-plugin/tablepress": "3.2.5",
+    "wpackagist-plugin/tablepress": "3.3.3",
     "wpackagist-plugin/taxonomy-terms-order": "*",
     "wpackagist-plugin/tinymce-advanced": "*",
     "wpackagist-plugin/wordpress-importer": "*",
@@ -239,8 +239,9 @@
     "sort-packages": true,
     "allow-plugins": {
       "composer/installers": true,
-      "koodimonni/composer-dropin-installer": true,
       "ffraenz/private-composer-installer": true,
+      "koodimonni/composer-dropin-installer": true,
+      "pestphp/pest-plugin": true,
       "roots/wordpress-core-installer": true
     },
     "platform": {
